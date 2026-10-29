@@ -1,0 +1,8 @@
+{
+  "inputRate": 2,
+  "outputRate": 10,
+  "useCache": false,
+  "cachePct": 0,
+  "cacheRate": 0.2,
+  "currency": "USD"
+}
