@@ -4,5 +4,6 @@
   "useCache": false,
   "cachePct": 0,
   "cacheRate": 0.2,
-  "currency": "USD"
+  "currency": "USD",
+  "batchDiscountPct": 0
 }
