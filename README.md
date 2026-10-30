@@ -1,11 +1,25 @@
-Byner AI Usage Calculator v2.6
+# Byner Recruitment Journey Calculator v3.0
 
-Publiceer index.html, pricing.json en byner-logo.png in de ROOT van je GitHub Pages repository.
+- `index.html`: interactieve recruitment journey met 5 fases, 10 AI-usecases, menselijke stappen en twee batches.
+- `pricing.json`: bestaande prijsinstellingen uit v2.7 ongewijzigd overgenomen.
+- `admin.html`: bestaande lokale beheerconfiguratie ongewijzigd overgenomen.
+- `byner-logo.png`: bestaande Byner-branding.
 
-Automations: vijf functies, 0-200 per maand. Batches: twee cv-parsingtypes, 0-100.000 cv’s.
+## Hoe de berekening werkt
+Automations: aantal uitvoeren per maand per medewerker x medewerkers x 12 x geschatte kosten per uitvoering.
+Batches: aantal cv's x gemeten kosten per cv, eenmalig per organisatie per jaar (optioneel Batch API-voordeel).
 
-Bezoekers zien europrijzen. De beheerder kan in admin.html USD input/output tarieven, caching, Batch API korting en de vaste koers EUR per USD instellen en pricing.json exporteren.
+## Voorlopige voorbeeldmetingen
+De volgende vijf usecases zijn **niet gemeten**; de waarden zijn fictief en duidelijk als 'Voorbeeld' gemarkeerd:
+- Assign customer request: 1800 input, 450 output
+- Schedule intake meeting: 1250 input, 250 output
+- Client intake questions: 4200 input, 1750 output
+- Search candidates & outreach: 8200 input, 2850 output
+- Constructive rejection feedback: 3000 input, 1400 output
 
-Bestaande tariefinstellingen op GitHub? NIET zonder meer pricing.json overschrijven. Voeg alleen usdToEur toe aan je eigen configuratie; de gebruikersapp gebruikt 0.8942 als fallback.
+Bestaande gemeten automations en batchmetingen zijn gelijk aan v2.7 gebleven.
 
-Let op: admin.html is niet beveiligd door GitHub Pages. Publiceer deze niet wanneer beheer privé moet zijn. Tarieven in pricing.json zijn publiek uitleesbaar.
+## Publiceren
+Upload `index.html` en, indien nog niet aanwezig, `byner-logo.png` naar root van GitHub-repository `tokencalculator`.
+Laat bestaande `pricing.json` staan om eigen prijzen te behouden.
+De admin-pagina op GitHub Pages is publiek bereikbaar: behandel haar niet als beveiligd prijsbeheer.
