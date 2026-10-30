@@ -4,6 +4,7 @@
   "useCache": false,
   "cachePct": 0,
   "cacheRate": 0.2,
-  "currency": "USD",
-  "batchDiscountPct": 0
+  "currency": "EUR",
+  "batchDiscountPct": 0,
+  "usdToEur": 0.8942
 }
