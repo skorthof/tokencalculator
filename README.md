@@ -23,3 +23,9 @@ Bestaande gemeten automations en batchmetingen zijn gelijk aan v2.7 gebleven.
 Upload `index.html` en, indien nog niet aanwezig, `byner-logo.png` naar root van GitHub-repository `tokencalculator`.
 Laat bestaande `pricing.json` staan om eigen prijzen te behouden.
 De admin-pagina op GitHub Pages is publiek bereikbaar: behandel haar niet als beveiligd prijsbeheer.
+
+
+## v3.1
+De maximaal instelbare maandelijkse uitvoeringen verschillen nu per automation, van 12 tot 50 per medewerker. Alle tokenmetingen en prijzen zijn ongewijzigd. Batches blijven 0-100.000.
+
+Typografie: Montserrat via Google Fonts als tijdelijke benadering; het exacte lettertype van byner.com kon niet worden bevestigd. Pas voor een officieel font de CSS-variabele `--byner-font` aan en configureer de geschikte gelicentieerde webfont-bron. Er worden geen fontbestanden meegeleverd.
